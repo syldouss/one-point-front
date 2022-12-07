@@ -7,8 +7,7 @@ function Callback() {
 
   const updateTokenSpotify = () => {
     //const token = window.location.hash.substr(1).split("&")[0].split("=")[1];
-    //window.opener.spotifyCallbackAfterAuthorize(window.location.search);
-    window.opener.spotifyCallbackAfterAuthorize(window.location.hash);
+    window.opener.spotifyCallbackAfterToken(window.location.search);
     return "update token";
   };
 
